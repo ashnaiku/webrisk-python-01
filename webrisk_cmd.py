@@ -143,7 +143,7 @@ def do_submission(project_id: str, uri: str):
 
     #TODO check status of submission
     # GET https://webrisk.googleapis.com/v1/projects/project-id/operations/operation-id&key=API_KEY
-    #     https://webrisk.googleapis.com/v1/projects/wide-plating-348023/operations/1398048980146928771&key=AIzaSyA0NXXF2JSPHpbGR5LmIOXnrOM06WNX1rU
+
     
     header_check_status = {"Content-Type": "application/json"}
 
